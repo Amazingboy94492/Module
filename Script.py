@@ -8,11 +8,11 @@ class Script:
         Write = lambda Value: print(Value)
 
         def Alert(Value):
-            ps("/Users/ArjunNara/Desktop/Programming/Python/GUI/Tkinter/GameCode/sounds/PING.mp3", True)
+            ps("/Users/ArjunNara/Desktop/Programming/Python/GUI/Tkinter/GameCode/PING.mp3", True)
             print("NOTICE: " + Value)
 
         def Warning(Value, Pre = ""):
-            ps("/Users/ArjunNara/Desktop/Programming/Python/GUI/Tkinter/GameCode/sounds/ALARM.mp3", True)
+            ps("/Users/ArjunNara/Desktop/Programming/Python/GUI/Tkinter/GameCode/ALARM.mp3", True)
             print(Pre + " " + Value)
 
         Sound = lambda path, wait: ps(path, wait)
